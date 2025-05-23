@@ -6,7 +6,6 @@ const io = require("socket.io")(server);
 const PORT = 1247;
 
 app.use(express.static(path.join(__dirname, "../client/public")));
-app.use(express.static(path.join(__dirname, "../client/src")));
 
 io.on("connection", (socket) => {
     let uname;
