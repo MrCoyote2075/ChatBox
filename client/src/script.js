@@ -17,7 +17,6 @@ document.getElementById("join-form").addEventListener("submit", (e) => {
         socket.emit("user-entry", username.value);
         document.getElementById("join-container").classList.remove("active");
         document.getElementById("chat-container").classList.add("active");
-        document.getElementById("message").focus();
     } else alert("can't be Empty");
 });
 
