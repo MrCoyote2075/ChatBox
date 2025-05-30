@@ -1,4 +1,4 @@
-const socket = io("http://localhost:1247");
+const socket = io();
 
 socket.on("connect", () => {
     console.log("Socket.io is Running Perfectly...");
