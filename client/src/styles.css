@@ -184,16 +184,16 @@ h1 {
         font-size: 2rem;
     }
 
-    #username {
-        font-size: 1rem;
-        padding: 8px 15px;
+     #username {
+        font-size: 0.8rem;
+        padding: 8px 0px 8px 10px;
     }
 
     .join {
         font-size: 1.2rem;
         padding: 8px 15px;
-        margin: 0px 4px 4px -12px;
         font-size: 0.8rem;
+        margin: 4px 4px 4px -5px;
     }
 
     #chatBox {
